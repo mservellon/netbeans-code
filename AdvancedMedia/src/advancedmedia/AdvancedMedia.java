@@ -371,7 +371,7 @@ public class AdvancedMedia extends Application {
                                     System.out.println("presionado triple");
                         System.out.println("presionado cuadruple");
                                   System.out.println("presionado quintuple");
-                        
+                                  System.out.println("presionado sextuple");
                         mp.setVolume(volumeSlider.getValue() / 100.0);
                     }
                 }
