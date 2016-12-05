@@ -365,6 +365,8 @@ public class AdvancedMedia extends Application {
                 @Override
                 public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
                     if (volumeSlider.isValueChanging()) {
+                        
+                        System.out.println("presionado");
                         mp.setVolume(volumeSlider.getValue() / 100.0);
                     }
                 }
