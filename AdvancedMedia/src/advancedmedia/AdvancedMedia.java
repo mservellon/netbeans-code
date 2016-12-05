@@ -367,6 +367,8 @@ public class AdvancedMedia extends Application {
                     if (volumeSlider.isValueChanging()) {
                         
                         System.out.println("presionado");
+                        System.out.println("presionado doble");
+                        
                         mp.setVolume(volumeSlider.getValue() / 100.0);
                     }
                 }
